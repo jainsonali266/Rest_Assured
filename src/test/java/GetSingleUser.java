@@ -12,7 +12,7 @@ public class GetSingleUser
         Response responseObj = RestAssured
                 .given()
                 .when()
-                .get( "/api/users/2")
+                .get( "/api/users/5")
         .then()
             .extract().response();
         System.out.println("Status Code: "+ responseObj.getStatusCode());

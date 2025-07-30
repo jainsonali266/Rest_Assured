@@ -12,6 +12,7 @@ public class GetValidationTest
     {
         RestAssured.baseURI = "https://reqres.in";
 
+        System.out.println("hello");
         Response responseObj = RestAssured
                 .given()
                 .when()
